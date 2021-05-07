@@ -5,13 +5,25 @@ For Install, open cmd.exe as admin and run:
 
 Basic:  
 
-choco install git python nodejs slack vscode yarn googlechrome 7zip.install vlc -y --ignore-checksums
+> choco install slack vscode googlechrome 7zip.install vlc adobereader zoom  -y --ignore-checksums
 
-choco install ngrok docker-desktop postman zoom hxd heidisql adobereader dbeaver insomnia-rest-api-client -y --ignore-checksums
+Basic Developer:
 
-cocho install terraform -version 0.12.29
+> choco install git python nodejs yarn docker-desktop -y --ignore-checksums
+ 
+Developer +:
 
-choco install spotify
+> choco install ngrok postman  hxd heidisql  dbeaver insomnia-rest-api-client -y --ignore-checksums 
+
+Amazon:
+
+> choco install terraform -version 0.12.29
+> pip install awsebcli --upgrade --user
+
+
+Why not:
+> choco install spotify
+> choco install sharex autohotkey -y --ignore-checksums
 
 #Install AWS EB
 
