@@ -18,11 +18,13 @@ Developer +:
 Amazon:
 
 > choco install terraform -version 0.12.29
+> 
 > pip install awsebcli --upgrade --user
 
 
 Why not:
 > choco install spotify
+> 
 > choco install sharex autohotkey -y --ignore-checksums
 
 #Install AWS EB
