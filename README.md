@@ -9,7 +9,7 @@ Basic:
 
 Basic Developer:
 
-> choco install git python nodejs yarn docker-desktop -y --ignore-checksums
+> choco install git python nodejs yarn docker-desktop nvm -y --ignore-checksums
  
 Developer +:
 
