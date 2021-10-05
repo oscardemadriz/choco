@@ -25,7 +25,7 @@ Amazon:
 Why not:
 > choco install spotify
 > 
-> choco install sharex autohotkey -y --ignore-checksums
+> choco install sharex autohotkey fsviewer -y --ignore-checksums
 
 #Install AWS EB
 
