@@ -5,7 +5,7 @@ For Install, open cmd.exe as admin and run:
 
 Basic:  
 
-> choco install slack vscode googlechrome 7zip.install vlc adobereader zoom  -y --ignore-checksums
+> choco install slack vscode googlechrome 7zip.install vlc adobereader zoom zoomit  -y --ignore-checksums
 
 Basic Developer:
 
