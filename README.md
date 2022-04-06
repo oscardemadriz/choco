@@ -34,3 +34,8 @@ pip install awsebcli --upgrade --user
 # Oh my posh theme
 
 `oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/oscardemadriz/choco/master/.atomiccustom.omp.json' | Invoke-Expression` 
+
+`Install-Module -Name Terminal-Icons -Repository PSGallery`
+
+Nerd font:
+ `https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip`

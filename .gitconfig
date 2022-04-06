@@ -1,0 +1,12 @@
+[alias]
+st = status
+co = checkout
+aa = add --all
+m = commit -m 
+amen = commit --amend
+cagada = reset HEAD~1
+chs = !git checkout $1 && git status
+sb = !git add . && git commit && git publish
+cleanup = !git co -b develop && git add . -A && git commit -m 'Clean up' && git publish
+nuke = reset --hard HEAD
+publish = !git push --set-upstream origin $(git branch | grep '*' | sed 's/* //') 
