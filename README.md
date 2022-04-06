@@ -5,7 +5,7 @@ For Install, open cmd.exe as admin and run:
 
 Basic:  
 
-> choco install slack vscode googlechrome 7zip.install vlc adobereader zoom zoomit  -y --ignore-checksums
+> choco install slack vscode googlechrome 7zip.install vlc adobereader zoom zoomit oh-my-posh -y --ignore-checksums
 
 Basic Developer:
 
@@ -30,3 +30,7 @@ Why not:
 #Install AWS EB
 
 pip install awsebcli --upgrade --user
+
+# Oh my posh theme
+
+`oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/oscardemadriz/choco/master/.atomiccustom.omp.json' | Invoke-Expression` 
