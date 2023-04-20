@@ -44,3 +44,41 @@ Nerd font:
  `https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip`
 
 Configurar en Terminal > Powershell > Apariencia > Fuente > FiraCode
+
+
+# MacOS
+
+Basic:
+
+```
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask 7zip
+brew install --cask vlc
+brew install --cask adobe-acrobat-reader
+brew install --cask zoom
+brew install zoomit
+```
+
+Developer:
+
+```
+brew install git
+brew install python
+brew install node
+brew install yarn
+brew install --cask docker
+brew install nvm
+brew install --cask ngrok
+brew install --cask postman
+brew install hxd
+brew install --cask dbeaver-community
+```
+
+Why not: 
+
+```
+brew install --cask spotify
+brew install --cask loom
+```
