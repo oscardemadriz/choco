@@ -57,7 +57,6 @@ brew install --cask google-chrome
 brew install --cask 7zip
 brew install --cask vlc
 brew install --cask adobe-acrobat-reader
-brew install --cask zoom
 brew install zoomit
 ```
 
