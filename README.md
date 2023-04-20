@@ -81,3 +81,24 @@ Why not:
 brew install --cask spotify
 brew install --cask loom
 ```
+
+
+# Git
+
+## .gitconfig
+
+```
+[core]
+	autocrlf = input
+	eol = lf
+[alias]
+st = status
+co = checkout
+aa = add --all
+m = commit -m 
+amen = commit --amend
+cagada = reset HEAD~1
+nuke = reset --hard HEAD
+wip = commit -m 'WIP' --no-verify
+publish = !git push --set-upstream origin $(git branch | grep '*' | sed 's/* //')
+```
