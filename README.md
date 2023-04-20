@@ -73,6 +73,7 @@ brew install --cask ngrok
 brew install --cask postman
 brew install hxd
 brew install --cask dbeaver-community
+brew install postgresql
 ```
 
 Why not: 
